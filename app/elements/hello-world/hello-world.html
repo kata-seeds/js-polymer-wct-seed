@@ -2,7 +2,7 @@
 
 <dom-module id="hello-world">
   <template>
-    <h1>{{greeting}}!</h1>
+    <h1><span>{{greeting}}</span>!</h1>
   </template>
 </dom-module>
 
@@ -14,7 +14,7 @@
       properties: {
         greeting: {
           type: String,
-          value: 'Hello World!',
+          value: 'Hello World',
           notify: true
         }
       }

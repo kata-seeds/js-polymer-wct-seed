@@ -1,0 +1,23 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<dom-module id="hello-world">
+  <template>
+    <h1>{{greeting}}!</h1>
+  </template>
+</dom-module>
+
+<script>
+  (function() {
+    Polymer({
+      is: 'hello-world',
+
+      properties: {
+        greeting: {
+          type: String,
+          value: 'Hello World!',
+          notify: true
+        }
+      }
+    });
+  })();
+</script>

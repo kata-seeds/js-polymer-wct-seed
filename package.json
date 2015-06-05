@@ -1,0 +1,17 @@
+{
+  "name": "polymer-starter-kit",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "deps": "npm install -g gulp && npm install -g bower && npm install && bower install"
+  },
+  "devDependencies": {
+    "apache-server-configs": "^2.7.1",
+    "browser-sync": "^2.6.4",
+    "gulp": "^3.8.5",
+    "web-component-tester": "git://github.com/Polymer/web-component-tester.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

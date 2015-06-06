@@ -8,8 +8,8 @@ Install [Node.js](http://nodejs.org).
 
 Clone this repo with `git`:
 
-    git clone https://github.com/kata-seeds/js-karma-seed.git
-    cd js-karma-seed
+    git clone https://github.com/kata-seeds/js-polymer-wct-seed.git
+    cd js-polymer-wct-seed
 
 Install dependencies and run your tests with `make`:
 

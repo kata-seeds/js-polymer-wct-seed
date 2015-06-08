@@ -4,9 +4,9 @@ test:
 	wct
 
 dependencies:
-	npm install -g bower
-	npm install -g gulp
-	npm install -g web-component-tester
+	which bower || npm install -g bower
+	which gulp || npm install -g gulp
+	which wct || npm install -g web-component-tester
 	bower install
 	npm install
 
